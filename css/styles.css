@@ -129,19 +129,27 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding: 188px 472px 48px 472px;
+}
+
+.button-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .button-header {
+    width: 169px;
+    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: var(--logo-accent-color);
     color: #FFFFFF;
+    margin-bottom: 188px;
 }
 
 .button-header:hover, .button-header:focus {
