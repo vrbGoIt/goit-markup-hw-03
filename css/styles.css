@@ -156,6 +156,15 @@ body {
     background-color: var(--link-hover-color);
 }
 
+.quality-list {
+    margin: 120px 0 120px 156px;
+}
+
+.quality-item {
+    width: 264px;
+    margin-right: 24px;
+}
+
 .quality-name {
     font-weight: 500;
     font-size: 20px;
@@ -179,6 +188,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+}
+
+.works-list {
+    margin: 72px 0 120px 156px;
+}
+
+.works-item {
+    margin-right: 24px;
 }
 
 .our-team {
