@@ -1,4 +1,3 @@
-
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap'); */
 
 /* * {
@@ -7,17 +6,23 @@
     box-sizing: border-box;
 } */
 
- h1, h2, h3, h4, h5, p, ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
     margin: 0;
     padding: 0;
-} 
+}
 
 :root {
     --text-color: #434455;
     --background-color: #fff;
-    --logo-accent-color: #4D5AE5;
+    --logo-accent-color: #4d5ae5;
     --menu-color: #2e2f42;
-    --link-hover-color: #404BBF;
+    --link-hover-color: #404bbf;
     --contact-color: #434455;
     --navy-blue: #2e2f42;
     --cloud: #f4f4fd;
@@ -37,7 +42,7 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .flex-row {
@@ -51,7 +56,7 @@ body {
 }
 
 .logo-ligth {
-    color: var(--cloud)
+    color: var(--cloud);
 }
 
 .footer-text {
@@ -70,19 +75,19 @@ body {
     list-style: none;
 }
 
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
     color: var(--link-hover-color);
 }
 
 .logo {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-accent-color);
-
 }
 
 .logo-text {
@@ -128,7 +133,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 188px 472px 48px 472px;
 }
 
@@ -148,11 +153,12 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: var(--logo-accent-color);
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 188px;
 }
 
-.button-header:hover, .button-header:focus {
+.button-header:hover,
+.button-header:focus {
     background-color: var(--link-hover-color);
 }
 
@@ -215,7 +221,13 @@ body {
 }
 
 .our-team-item {
-    background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
+    background-color: #ffffff;
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-item-header {
@@ -234,7 +246,7 @@ body {
 }
 
 .list_button {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -249,7 +261,7 @@ body {
 
 .list_button:hover,
 .list_button:focus {
-    color: #FFFFFF;
+    color: #ffffff;
     background-color: var(--link-hover-color);
 }
 
