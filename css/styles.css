@@ -7,6 +7,11 @@
     box-sizing: border-box;
 } */
 
+ h1, h2, h3, h4, h5, p, ul {
+    margin: 0;
+    padding: 0;
+} 
+
 :root {
     --text-color: #434455;
     --background-color: #fff;
@@ -24,6 +29,20 @@ body {
     font-size: 16px;
     color: var(--text-color);
     background: var(--background-color);
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer {
@@ -63,6 +82,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-accent-color);
+
+}
+
+.logo-text {
+    margin: 25.5px 76px 25.5px 156px;
 }
 
 .logo-black {
@@ -75,6 +99,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--menu-color);
+}
+
+.menu-item {
+    margin: 24px 40px 24px 0;
+}
+
+.list-contacts {
+    margin-left: 332px;
 }
 
 .contacts {
@@ -97,19 +129,27 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding: 188px 472px 48px 472px;
+}
+
+.button-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .button-header {
+    width: 169px;
+    height: 56px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: var(--logo-accent-color);
     color: #FFFFFF;
+    margin-bottom: 188px;
 }
 
 .button-header:hover, .button-header:focus {
