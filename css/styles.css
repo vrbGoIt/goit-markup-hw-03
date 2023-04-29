@@ -40,6 +40,12 @@ img {
 }
 
 .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
     width: 1440px;
     margin: 0 auto;
 }
@@ -89,6 +95,11 @@ img {
     color: var(--link-hover-color);
 }
 
+.navigation {
+    align-items: center;
+    margin-right: 76px;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -100,7 +111,7 @@ img {
 }
 
 .logo-text {
-    margin: 25.5px 76px 25.5px 156px;
+    margin-right: 76px;
 }
 
 .logo-black {
@@ -120,7 +131,7 @@ img {
 }
 
 .list-contacts {
-    margin-left: 332px;
+    margin-left: 100px;
 }
 
 .contacts {
@@ -142,7 +153,7 @@ img {
 }
 
 .main-header {
-    padding: 0 472px 48px;
+    padding: 0 291px 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
