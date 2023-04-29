@@ -35,6 +35,9 @@ body {
     color: var(--text-color);
     background: var(--background-color);
 }
+img {
+    display: block;
+}
 
 .container {
     width: 1440px;
@@ -235,11 +238,7 @@ body {
     padding: 0 0 120px 156px;
 }
 
-.block-item {
-    display: block;
-}
-
-.our-team-item {
+ .our-team-item {
     width: 264px;
     margin-right: 24px;
     padding-bottom: 32px;
