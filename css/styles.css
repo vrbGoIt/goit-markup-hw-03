@@ -116,7 +116,8 @@ img {
 }
 
 .menu {
-    gap: 40px; 
+    gap: 40px;
+    padding: 24px 0;
 }
 
 /* .menu-item {
@@ -124,7 +125,7 @@ img {
 } */
 
 .menu-link {
-    padding: 24px 0;
+    /* padding: 24px 0; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
