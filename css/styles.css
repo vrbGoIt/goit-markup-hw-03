@@ -101,6 +101,7 @@ img {
 }
 
 .logo {
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -108,10 +109,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-accent-color);
-}
-
-.logo-text {
-    margin-right: 76px;
 }
 
 .logo-black {
