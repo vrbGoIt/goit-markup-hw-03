@@ -138,10 +138,11 @@ img {
 
 .header-section {
     background-color: var(--navy-blue);
+    padding: 188px 0;
 }
 
 .main-header {
-    padding: 68px 472px 48px 472px;
+    padding: 0 472px 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -159,7 +160,6 @@ img {
 .button-header {
     width: 169px;
     height: 56px;
-    margin-bottom: 188px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
