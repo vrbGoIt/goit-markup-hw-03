@@ -117,12 +117,13 @@ img {
 
 .menu {
     gap: 40px;
-    padding: 24px 0;
 }
 
-/* .menu-item {
-    padding: 24px 0;
-} */
+.menu-item {
+    /* padding: 24px 0; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .menu-link {
     /* padding: 24px 0; */
