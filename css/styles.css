@@ -116,7 +116,7 @@ img {
 }
 
 .menu {
-    column-gap: 40px; 
+    gap: 40px; 
 }
 
 .menu-item {
