@@ -116,6 +116,7 @@ img {
 }
 
 .menu {
+    column-gap: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -124,7 +125,7 @@ img {
 }
 
 .menu-item {
-    margin: 24px 40px 24px 0;
+    padding: 24px 0;
 }
 
 .list-contacts {
