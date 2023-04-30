@@ -63,7 +63,7 @@ img {
 }
 
 .footer {
-    padding: 102px 0 100px 156px;
+    padding: 100px 0;
     background-color: var(--navy-blue);
     color: var(--logo-accent-color);
 }
@@ -73,7 +73,6 @@ img {
 }
 
 .footer-text {
-    margin-top: 18px;
     width: 264px;
     font-weight: 400;
     font-size: 16px;
@@ -109,6 +108,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-accent-color);
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-black {
