@@ -160,6 +160,10 @@ img {
     padding: 120px 0;
 }
 
+.works-section {
+    padding-bottom: 120px;
+}
+
 .main-header {
     margin: 0 auto;
     max-width: 496px;
@@ -218,6 +222,7 @@ img {
 }
 
 .works-header {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -229,11 +234,11 @@ img {
 }
 
 .works-list {
-    margin: 72px 0 120px 156px;
+    gap: 24px;
 }
 
 .works-item {
-    margin-right: 24px;
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .our-team {
