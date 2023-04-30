@@ -294,10 +294,8 @@ img {
     text-align: center;
 }
 
-.list_button {
+.filter_button {
     padding: 12px 24px;
-    margin-top: 96px;
-    margin-right: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -336,12 +334,19 @@ img {
     letter-spacing: 0.02em;
 }
 
+.portfolio-section {
+    padding: 96px 0 120px;
+}
+
+.list-button {
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .portfolio-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 72px;
-    margin-bottom: 120px;
     column-gap: 24px;
     row-gap: 48px;
 }
