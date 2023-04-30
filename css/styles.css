@@ -161,6 +161,7 @@ img {
 }
 
 .main-header {
+    margin: 0 auto;
     max-width: 496px;
     font-weight: 700;
     font-size: 56px;
@@ -170,13 +171,9 @@ img {
     color: #ffffff;
 }
 
-/* .button-conteiner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
 .button-header {
+    display: block;
+    margin: 48px auto 0;
     min-width: 169px;
     height: 56px;
     font-family: 'Roboto', sans-serif;
@@ -198,15 +195,15 @@ img {
 }
 
 .quality-list {
-    margin: 0 0 0 156px;
+    gap: 24px;
 }
 
 .quality-item {
-    width: 264px;
-    margin-right: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .quality-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
