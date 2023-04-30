@@ -45,11 +45,6 @@ img {
     padding: 0 15px;
 }
 
-.wrapper {
-    width: 1440px;
-    margin: 0 auto;
-}
-
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -96,7 +91,7 @@ img {
 
 .navigation {
     align-items: center;
-    margin-right: 332px;
+    /* margin-right: 332px; */
 }
 
 .logo {
@@ -133,6 +128,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--menu-color);
+}
+
+.list-contacts{
+    margin-left: auto;
 }
 
 .contacts {
